@@ -2,13 +2,13 @@
 
 ### 1. Overview of the initial analysis notebook
 
-[00_initial_script.ipynb](00_initial_script.ipynb)
+[exercise/00_initial_script.ipynb](exercise/00_initial_script.ipynb)
 
 TODO: put intro from ramp
 
 ### 2. Code style and documentation
 
-[Slides](https://paris-saclay-cds.github.io/python-workshop/Day_2_Software_engineering_best_practices/slides_documentation_code_style.html)
+[Slides](https://paris-saclay-cds.github.io/python-workshop/Day_2_Software_engineering_best_practices/02_documentation_code_style_slides.html)
 
 **Exercise** Improve the code style of the notebook (you don't need to do the full notebook)
 
@@ -18,7 +18,7 @@ TODO: put intro from ramp
 
 ### 3. Reusing code: functions
 
- Notebook about functions
+Notebook about functions: [03_functions.ipynb](03_functions.ipynb)
 
  **Exercise** For those parts of the notebook that are repetitive, refactor
  this code into a function and use this function multiple times.
