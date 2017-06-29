@@ -20,16 +20,41 @@ TODO: put intro from ramp
 
 Notebook about functions: [03_functions.ipynb](03_functions.ipynb)
 
- **Exercise** For those parts of the notebook that are repetitive, refactor
- this code into a function and use this function multiple times.
+**Exercise** For those parts of the notebook that are repetitive, refactor this
+code into a function and use this function multiple times. For each of the
+functions created, add a docstring with: (i) a short description, (ii) a long
+description (sometimes optional), (iii) a *Parameters* and *Returns* sections
+documenting the input and output parameters.
 
- - Create functions `alabl` to ...
-    which accepts ... and returns ...
- - Create ...
-
- - Make sure to add docstrings to all functions. Parameters section, return section, ....
-
-specific instructions!
+- Create a function named `read_spectra` which accepts `path_csv` which is the
+  path to a csv file and returns `spectra`, `concentration`, and `molecule`
+  which are a Dataframe containing the Raman spectra, a Series containing the
+  concentration of the molecule, and a Series containing the type of
+  chemotherapeutic agent, respectively.
+- Create a "private" function `_apply_axis_layout` which accepts `ax` and
+  `title` which are the matplotlib axis and the title of the plot,
+  respectively. The purpose of this function is to add labels and title to the
+  axis and remove the top and right border of the axis.
+- Create a function `plot_spectra` which accepts `frequency` and `spectra`
+  which need to be plotted. In addition, you can pass `title` which will be
+  passed to the `_apply_axis_layout` internally to setup the layout of the
+  plot. The purpose of this function is to plot a bunch of Raman spectra on the
+  same figure.
+- Create a function `plot_spectra_by_type` whith the same parameters as the
+  above function. In addition, the `classes` parameters need to be passed to
+  group the spectra by category before to compute the mean and standard
+  deviation.
+- Create a function `plot_cm` which takes, `cm`, `classes`, and `title` which
+  are the confusion matrix, the classes used in the classification problem, and
+  the title of the plot, respectively.
+- Create a function `plot_regression` which takes `y_true`, `y_pred`, and
+  `title` which are the true concentration, the predicted concentration, and
+  the title to add to the axis, respectively.
+- Create a function `fit_params` which takes `data`, a DataFrame with the Raman
+  spectra and return the median and the difference between the 75th percentile
+  and the 25th percentile.
+- Create a function `transform` which takes `data`, `median`, and `var_25_75`
+  and return the scaled data.
 
 
 ### 4. Reusing code: modules and packages
