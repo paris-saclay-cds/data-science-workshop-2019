@@ -22,3 +22,9 @@ Therefore, this workshop organized by the Paris Saclay Center for Data Science a
 * Migrating from scripts to modular code;
 * Best practices through PEP8 and well documented code;
 * Test and continuous integration in a nutshell
+
+
+Event organized in collaboration with [PROTO204](http://proto204.co/).
+
+<img src="http://proto204.co/wp-content/uploads/2014/07/PROTO204-EPPS1501.png" height="200px"/>
+<img src="img/logoUPSayPlusCDS_990.png"/>
