@@ -59,20 +59,18 @@ documenting the input and output parameters.
 
 ### 4. Reusing code: modules and packages
 
-Some theory -> use notebook (first function) as example -> move to separate file
+Notebook: [04_reusing_code_modules.ipynb](04_reusing_code_modules.ipynb)
 
-http://www.scipy-lectures.org/intro/language/reusing_code.html
+**Exercise: create a module**
 
+- Open your favorite text editor (with python syntax support). If you don't have a favorite one, a suggestion is to use [Spyder](https://github.com/spyder-ide/spyder), which comes preinstalled with Anaconda
+- Move the functions you have written in the previous exercise in the notebook to a stand-alone python file, e.g. `spectra_analysis.py`, located next to the notebook. Import the functions from that file instead of defining them inside the notebook itself (`from spectra_analysis import ...`)
 
-**Exercise:**
+**Exercise: create a package**
 
-- Move the functions to a stand-alone python file, `spectra_analysis.py`, located next to the notebook. Import the functions from that file instead of defining them inside the notebook itself
+- Make a small python package by creating a directory called `spectra_analysis` that contains an empty file named `__init__.py`
+- Move the python module inside this directory, and organize the different functions by putting them in different files (e.g. `preprocessing.py`, `plotting.py`, `regression.py`)
 
-Some theory: move python files into directory: package __init__.py
-
-**Exercise:**
-
-- make a package by moving to spectra_analysis dir + reorganize
 
 ### 5. Version control with git
 
