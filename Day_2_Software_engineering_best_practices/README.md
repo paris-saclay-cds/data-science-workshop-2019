@@ -10,7 +10,7 @@ TODO: put intro from ramp
 
 [Slides](https://paris-saclay-cds.github.io/python-workshop/Day_2_Software_engineering_best_practices/02_documentation_code_style_slides.html)
 
-**Exercise** Improve the code style of the notebook (you don't need to do the full notebook)
+**Exercise** Improve the code style of the notebook (you don't need to do the full notebook). Among other things, check for:
 
 - Consistent imports?
 - clear variable names?
