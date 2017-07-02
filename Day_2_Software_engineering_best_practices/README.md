@@ -98,17 +98,21 @@ https://paris-swc.github.io/python-testing-debugging-profiling/
 
 **Exercise**:
 
-- add a test direcotry, add test_processing.py
-- write a test for .... (test with csv file) -> specific steps to do
-- running the tests
-- add with git to repo
-
-Write unit tests for the functions in `spectra_analysis.py`, and add those tests to the git repo.
-
-- Make a new file `test_spectra_analysis.py`
-- Write a test for ... function
-- Run the tests using `pytest`
-
+- Create a folder `tests` in the directory `spectra_analysis` directory. It
+  will contain all the different tests which ensure that our package is robust
+  and that nobody will be able to break it.
+- Add a file `__init__.py` in `tests` such it is consider as a module.
+- Create a file `test_preprocessing.py`. In this file, create two functions:
+  - `test_read_spectra_error()` to ensure that the proper error will be raised.
+  - `test_read_spectra()` to check that on a toy file, the function is giving
+    the expected results.
+- Create a file `test_regression.py`. Create two tests function:
+  - `test_fit_params` in which we check the right behavior of the function
+    `fit_params` with toy data.
+  - `test_transform` in which we check the right behavior of the function
+    `fit_params` with toy data.
+- You can run the tests by running `$ pytest spectral_analysis`.
+- Finally, add and commit all those files.
 
 ### 7. Redistributable package
 
