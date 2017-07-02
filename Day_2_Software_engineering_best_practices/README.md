@@ -124,8 +124,15 @@ Some theory:
 
 ### 8. GitHub / travis
 
-- crate user acocunt
-- make repo (empty)
-- add existing repo -> add remote to existing repo
-- push
-- pull requests (only explain, if time do example)
+
+**Exercise:**
+
+- Before to start this section, you will need to create an account on GitHub by
+  clicking [here](https://github.com/join)
+- Create you first repository. A guideline can be
+  found
+  [here](https://help.github.com/articles/creating-a-new-repository/). **Note:
+  Create a complete empty repository without initialiazing with any License,
+  .gitignore, or README**.
+- Follow the instruction in "…or push an existing repository from the command
+  line" to add and push your repository.
