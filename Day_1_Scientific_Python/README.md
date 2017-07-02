@@ -4,7 +4,7 @@ Goal: introducing the most important packages for scientific computing and data 
 
 Overview:
 
-1. Introduction to numpy
+1. Introduction to numpy: [01-numpy-introduction.ipynb](01-numpy-introduction.ipynb)
 
 2. Introduction to pandas: [02-pandas_introduction.ipynb](02-pandas_introduction.ipynb)
 
