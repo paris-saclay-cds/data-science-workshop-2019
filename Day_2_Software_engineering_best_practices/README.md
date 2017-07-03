@@ -123,12 +123,18 @@ Some theory:
 
 **Exercise:**
 
-* make package with setup.py
+We created `setup.py` and `spectral_analysis/version.py` to make the a
+redistributable package. These files are usually reused and adapted for each
+new package.
+
+- Read both files [`setup.py`](solutions/07_redistributable_package/setup.py)
+  and
+  [`spectral_analysis/version.py`](solutions/07_redistributable_package/spectral_analysis/version.py).
 
 ### 8. GitHub / travis
 
 
-**Exercise:**
+**Exercise #1:**
 
 - Before to start this section, you will need to create an account on GitHub by
   clicking [here](https://github.com/join)
@@ -139,3 +145,10 @@ Some theory:
   .gitignore, or README**.
 - Follow the instruction in "…or push an existing repository from the command
   line" to add and push your repository.
+
+**Exercise #2:**
+
+- We created a file
+  called [`.travis.yml`](solutions/08_github_travis/.travis.yml) which contains
+  the necessary information to run automatically the tests on a server. You can
+  read this file to understand how the configuration is done.
