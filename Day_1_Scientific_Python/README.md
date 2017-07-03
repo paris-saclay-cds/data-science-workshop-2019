@@ -10,6 +10,6 @@ Overview:
 
 3. Short overview of matplotlib and seaborn: [03-matplotib_seaborn.ipynb](03-matplotib_seaborn.ipynb)
 
-4. Overview of the sciy library and statsmodels [04-scipy_statsmodels_introduction.ipynb](04-scipy_statsmodels_introduction.ipynb)
+4. Overview of the sciy library and statsmodels: [04-scipy_statsmodels_introduction.ipynb](04-scipy_statsmodels_introduction.ipynb)
 
-5. Introduction to machine learning with scikit-learn
+5. Introduction to machine learning with scikit-learn: https://github.com/lesteve/2017-cds-workshop-scikit-learn
