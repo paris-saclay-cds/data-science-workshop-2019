@@ -4,8 +4,6 @@
 
 [exercise/00_initial_script.ipynb](exercise/00_initial_script.ipynb)
 
-TODO: put intro from ramp
-
 ### 2. Code style and documentation
 
 [Slides](https://paris-saclay-cds.github.io/python-workshop/Day_2_Software_engineering_best_practices/02_documentation_code_style_slides.html)
