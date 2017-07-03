@@ -46,6 +46,7 @@ def plot_spectra(frequency, spectra, title):
     fig, ax = plt.subplots()
     ax.plot(frequency, spectra.T)
     _apply_axis_layout(ax, title)
+    return fig, ax
 
 
 def plot_spectra_by_type(frequency, spectra, classes, title):
@@ -82,6 +83,7 @@ def plot_spectra_by_type(frequency, spectra, classes, title):
                         alpha=0.2)
     _apply_axis_layout(ax, title)
     ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+    return fig, ax
 
 
 def plot_cm(cm, classes, title):
@@ -122,6 +124,7 @@ def plot_cm(cm, classes, title):
     plt.tight_layout()
     plt.ylabel('True label')
     plt.xlabel('Predicted label')
+    return fig, ax
 
 
 def plot_regression(y_true, y_pred, title):
@@ -153,3 +156,4 @@ def plot_regression(y_true, y_pred, title):
         r2_score(y_true, y_pred), median_absolute_error(y_true, y_pred)))
     ax.set_xlim([0, 25000])
     ax.set_ylim([0, 25000])
+    return fig, ax
