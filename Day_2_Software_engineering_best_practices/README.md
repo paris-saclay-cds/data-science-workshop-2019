@@ -6,7 +6,7 @@
 
 ### 2. Code style and documentation
 
-[Slides](https://paris-saclay-cds.github.io/python-workshop/Day_2_Software_engineering_best_practices/02_documentation_code_style_slides.html)
+[Slides](https://paris-saclay-cds.github.io/python-workshop/Day_2_Software_engineering_best_practices/02_documentation_code_style.html)
 
 **Exercise** Improve the code style of the notebook (you don't need to do the full notebook). Among other things, check for:
 
@@ -80,7 +80,7 @@ notebook in the directory `exercise` to use it now on.
 
 ### 5. Version control with git
 
-[Slides](https://paris-saclay-cds.github.io/python-workshop/Day_2_Software_engineering_best_practices/05_documentation_git.html)
+[Slides](https://paris-saclay-cds.github.io/python-workshop/Day_2_Software_engineering_best_practices/05_git.html)
 
 **Exercise:**
 
@@ -115,21 +115,18 @@ Notebook: [06_unit_testing.ipynb](06_unit_testing.ipynb)
 
 ### 7. Redistributable package
 
-Some theory:
+[Slides](https://paris-saclay-cds.github.io/python-workshop/Day_2_Software_engineering_best_practices/07_redistributing_code.html)
 
-- local
-- sys.path
-- setup.py
 
 **Exercise:**
 
-We created `setup.py` and `spectral_analysis/version.py` to make the a
+We created `setup.py` and `spectral_analysis/_version.py` to make the a
 redistributable package. These files are usually reused and adapted for each
 new package.
 
-- Read both files [`setup.py`](solutions/07_redistributable_package/setup.py)
+- Read both files [`setup.py`](solutions/06_07_08_full_package/setup.py)
   and
-  [`spectral_analysis/version.py`](solutions/07_redistributable_package/spectral_analysis/version.py).
+  [`spectral_analysis/_version.py`](solutions/06_07_08_full_package/_version.py).
 
 ### 8. GitHub / travis
 
