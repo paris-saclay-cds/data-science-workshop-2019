@@ -93,6 +93,7 @@ notebook in the directory `exercise` to use it now on.
 theory notebook with exercises
 https://paris-swc.github.io/python-testing-debugging-profiling/
 
+Notebook: [06_unit_testing.ipynb](06_unit_testing.ipynb)
 
 **Exercise**:
 
