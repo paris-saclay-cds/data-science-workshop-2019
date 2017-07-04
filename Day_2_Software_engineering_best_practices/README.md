@@ -90,9 +90,6 @@ notebook in the directory `exercise` to use it now on.
 
 ### 6. Unit testing
 
-theory notebook with exercises
-https://paris-swc.github.io/python-testing-debugging-profiling/
-
 Notebook: [06_unit_testing.ipynb](06_unit_testing.ipynb)
 
 **Exercise**:
@@ -146,6 +143,6 @@ new package.
 **Exercise #2:**
 
 - We created a file
-  called [`.travis.yml`](solutions/08_github_travis/.travis.yml) which contains
-  the necessary information to run automatically the tests on a server. You can
-  read this file to understand how the configuration is done.
+  called [`.travis.yml`](solutions/06_07_08_full_package/.travis.yml) which
+  contains the necessary information to run automatically the tests on a
+  server. You can read this file to understand how the configuration is done.
