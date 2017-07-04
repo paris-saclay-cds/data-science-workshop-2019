@@ -14,7 +14,7 @@ from sklearn.metrics import r2_score, median_absolute_error
 def _apply_axis_layout(ax, title):
     """Apply despine style and add labels to axis."""
     ax.set_xlabel('Frequency')
-    ax.set_ylabel('Concentration')
+    ax.set_ylabel('Intensity')
     ax.set_title(title)
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
@@ -24,7 +24,7 @@ def _apply_axis_layout(ax, title):
     ax.spines['bottom'].set_position(('outward', 10))
 
 
-def plot_spectra(frequency, spectra, title):
+def plot_spectra(frequency, spectra, title=''):
     """Plot a bunch of Raman spectra.
 
     Parameters
@@ -49,7 +49,7 @@ def plot_spectra(frequency, spectra, title):
     return fig, ax
 
 
-def plot_spectra_by_type(frequency, spectra, classes, title):
+def plot_spectra_by_type(frequency, spectra, classes, title=''):
     """Plot mean spectrum with its variance for a given class.
 
     Parameters
@@ -86,7 +86,7 @@ def plot_spectra_by_type(frequency, spectra, classes, title):
     return fig, ax
 
 
-def plot_cm(cm, classes, title):
+def plot_cm(cm, classes, title=''):
     """Plot a confusion matrix.
 
     Parameters
@@ -127,7 +127,7 @@ def plot_cm(cm, classes, title):
     return fig, ax
 
 
-def plot_regression(y_true, y_pred, title):
+def plot_regression(y_true, y_pred, title=''):
     """Plot actual vs. predicted scatter plot.
 
     Parameters
