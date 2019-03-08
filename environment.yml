@@ -1,0 +1,14 @@
+name: python-workshop
+dependencies:
+- ipython
+- joblib
+- matplotlib
+- mplleaflet
+- notebook
+- numpy
+- pandas=0.24
+- pillow
+- python=3.7
+- scikit-learn
+- scipy
+- seaborn
