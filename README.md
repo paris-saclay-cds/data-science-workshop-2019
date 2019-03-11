@@ -36,5 +36,50 @@ For more detailed instructions to install Anaconda, check the [Windows](https://
 
 **Note:** When you are already familiar to the command line and Python environments you could opt to use Miniconda instead of Anaconda and download it  from <https://conda.io/miniconda.html>. The main difference is that Anaconda provides a graphical user interface (Anaconda navigator) and a whole lot of scientific packages (e.g <https://docs.anaconda.com/anaconda/packages/py3.6_win-64/>) when installing, whereas for Miniconda the user needs to install all packages using the command line. On the other hand, Miniconda requires less disc space. By choosing Miniconda, create the workshop environment using the `environment.yml` file: `conda env create -f environment.yml`
 
+### Install/check of required packages
+
+This tutorial will require recent installations of
+
+- [NumPy](http://www.numpy.org)
+- [SciPy](http://www.scipy.org)
+- [matplotlib](http://matplotlib.org)
+- [pandas](http://pandas.pydata.org)
+- [pillow](https://python-pillow.org)
+- [scikit-learn](http://scikit-learn.org/stable/)
+- [IPython](http://ipython.readthedocs.org/en/stable/)
+- [Jupyter Notebook](http://jupyter.org)
+
+
+The last one is important and you should be able to type:
+
+```bash
+jupyter notebook
+```
+
+in your terminal window and see the notebook panel load in your web browser. Try opening and running a notebook from the material to see check that it works. Alternatively you can use Jupyter lab.
+
+After obtaining the material, we **strongly recommend** you to open and execute the Jupyter Notebook `jupter notebook check_env.ipynb` that is located at the top level of this repository. Inside the repository, you can open the notebook by executing
+
+```bash
+jupyter notebook check_env.ipynb
+```
+
+inside this repository. Inside the Notebook, you can run the code cell by clicking on the "Run Cells" button as illustrated in the figure below:
+
+![](img/check_env-1.png)
+
+
+Finally, if your environment satisfies the requirements for the tutorials, the executed code cell will produce an output message as shown below:
+
+![](img/check_env-2.png)
+
+Although not required, we also recommend you to update the scikit-learn the latest release version to ensure best compatibility with the teaching material. Please upgrade already installed packages by executing
+
+```bash
+conda update [package-name]
+```
+
+Depending on how you installed ``scikit-learn``.
+
 
 <img src="img/logoUPSayPlusCDS_990.png"/>
