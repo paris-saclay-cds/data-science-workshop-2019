@@ -47,7 +47,7 @@ else:
 print()
 requirements = {'numpy': "1.16", 'scipy': "1.2", 'matplotlib': "3.0",
                 'IPython': "3.0", 'sklearn': "0.20", 'pandas': "0.24",
-                'PIL': "1.1.7", 'jupyterlab': "0.35"}
+                'PIL': "1.1.7", 'notebook': "5.7"}
 
 # now the dependencies
 for lib, required_version in list(requirements.items()):
