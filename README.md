@@ -59,22 +59,9 @@ jupyter lab
 
 in your terminal window and see the notebook panel load in your web browser. Try opening and running a notebook from the material to see check that it works. Alternatively you can use Jupyter lab.
 
-After obtaining the material, we **strongly recommend** you to open and execute the script using `python check_env.py` that is located at the top level of this repository. Inside the repository, you can open the notebook by executing
+After obtaining the material, we **strongly recommend** you to open and execute the script using `python check_env.py` that is located at the top level of this repository.
 
-```bash
-jupyter notebook check_env.ipynb
-```
-
-inside this repository. Inside the Notebook, you can run the code cell by clicking on the "Run Cells" button as illustrated in the figure below:
-
-![](img/check_env-1.png)
-
-
-Finally, if your environment satisfies the requirements for the tutorials, the executed code cell will produce an output message as shown below:
-
-![](img/check_env-2.png)
-
-Although not required, we also recommend you to update the scikit-learn the latest release version to ensure best compatibility with the teaching material. Please upgrade already installed packages by executing
+We also recommend you to update the scikit-learn the latest release version to ensure best compatibility with the teaching material. Please upgrade already installed packages by executing
 
 ```bash
 conda update [package-name]
