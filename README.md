@@ -36,5 +36,38 @@ For more detailed instructions to install Anaconda, check the [Windows](https://
 
 **Note:** When you are already familiar to the command line and Python environments you could opt to use Miniconda instead of Anaconda and download it  from <https://conda.io/miniconda.html>. The main difference is that Anaconda provides a graphical user interface (Anaconda navigator) and a whole lot of scientific packages (e.g <https://docs.anaconda.com/anaconda/packages/py3.6_win-64/>) when installing, whereas for Miniconda the user needs to install all packages using the command line. On the other hand, Miniconda requires less disc space. By choosing Miniconda, create the workshop environment using the `environment.yml` file: `conda env create -f environment.yml`
 
+### Install/check of required packages
+
+This tutorial will require recent installations of
+
+- [NumPy](http://www.numpy.org)
+- [SciPy](http://www.scipy.org)
+- [matplotlib](http://matplotlib.org)
+- [pandas](http://pandas.pydata.org)
+- [pillow](https://python-pillow.org)
+- [scikit-learn](http://scikit-learn.org/stable/)
+- [seaborn](http://seaborn.pydata.org/)
+- [IPython](http://ipython.readthedocs.org/en/stable/)
+- [Jupyter Lab](http://jupyter.org)
+
+
+The last one is important and you should be able to type:
+
+```bash
+jupyter lab
+```
+
+in your terminal window and see the notebook panel load in your web browser. Try opening and running a notebook from the material to see check that it works. Alternatively you can use Jupyter lab.
+
+After obtaining the material, we **strongly recommend** you to open and execute the script using `python check_env.py` that is located at the top level of this repository.
+
+We also recommend you to update the scikit-learn the latest release version to ensure best compatibility with the teaching material. Please upgrade already installed packages by executing
+
+```bash
+conda update [package-name]
+```
+
+Depending on how you installed ``scikit-learn``.
+
 
 <img src="img/logoUPSayPlusCDS_990.png"/>
