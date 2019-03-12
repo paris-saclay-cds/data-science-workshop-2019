@@ -48,18 +48,18 @@ This tutorial will require recent installations of
 - [scikit-learn](http://scikit-learn.org/stable/)
 - [seaborn](http://seaborn.pydata.org/)
 - [IPython](http://ipython.readthedocs.org/en/stable/)
-- [Jupyter Notebook](http://jupyter.org)
+- [Jupyter Lab](http://jupyter.org)
 
 
 The last one is important and you should be able to type:
 
 ```bash
-jupyter notebook
+jupyter lab
 ```
 
 in your terminal window and see the notebook panel load in your web browser. Try opening and running a notebook from the material to see check that it works. Alternatively you can use Jupyter lab.
 
-After obtaining the material, we **strongly recommend** you to open and execute the Jupyter Notebook `jupter notebook check_env.ipynb` that is located at the top level of this repository. Inside the repository, you can open the notebook by executing
+After obtaining the material, we **strongly recommend** you to open and execute the script using `python check_env.py` that is located at the top level of this repository. Inside the repository, you can open the notebook by executing
 
 ```bash
 jupyter notebook check_env.ipynb
