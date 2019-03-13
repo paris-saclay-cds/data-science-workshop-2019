@@ -1,1 +1,0 @@
-no2['weekend'] = no2['weekday'].isin([5, 6])

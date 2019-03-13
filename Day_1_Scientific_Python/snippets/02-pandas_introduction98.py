@@ -1,1 +1,0 @@
-no2['month'] = no2.index.month
