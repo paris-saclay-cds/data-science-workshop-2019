@@ -1,1 +1,0 @@
-df.groupby('Pclass')['Survived'].mean().plot(kind='bar')

@@ -1,1 +1,0 @@
-no2.loc['2009':, 'VERS'].resample('M').agg(['mean', 'median']).plot()

@@ -1,1 +1,0 @@
-no2.groupby('month').mean().plot()
