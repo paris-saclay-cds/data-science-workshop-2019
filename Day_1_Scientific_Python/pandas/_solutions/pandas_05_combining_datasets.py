@@ -1,0 +1,1 @@
+pd.merge(countries, country_economics, on='country', how='right')
