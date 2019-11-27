@@ -8,6 +8,8 @@ This workshop intends to give an introduction to some of these topics using Pyth
 
 *Note: the material in this repo is WIP, not the finalized material.*
 
+You can run the notebooks in a binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/paris-saclay-cds/data-science-workshop-2019/master)
+
 ## Program
 
 ### Day 1 -  Data wrangling, exploration, and visualisation
