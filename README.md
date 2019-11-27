@@ -26,7 +26,7 @@ This workshop intends to give an introduction to some of these topics using Pyth
 
 ## Getting started
 
-The course uses Python 3 and some data analysis packages such as Numpy, Pandas, Matplotlib and scikit-learn. To install the required libraries, we highly recommend Anaconda or miniconda (<https://www.anaconda.com/download/>) or another Python distribution that includes the scientific libraries (this recommendation applies to all platforms, so for both Window, Linux and Mac).
+The course uses Python 3 and some data analysis packages such as Numpy, Pandas, scikit-learn, matplotlib, and seaborn. To install the required libraries, we highly recommend Anaconda or miniconda (<https://www.anaconda.com/download/>) or another Python distribution that includes the scientific libraries (this recommendation applies to all platforms, so for both Window, Linux and Mac).
 
 ### Install Anaconda
 
@@ -49,6 +49,8 @@ This tutorial will require recent installations of
 - [seaborn](http://seaborn.pydata.org/)
 - [IPython](http://ipython.readthedocs.org/en/stable/)
 - [Jupyter notebook](http://jupyter.org)
+- [plotly](https://plot.ly/)
+- [pandas-profiling](https://pandas-profiling.github.io/pandas-profiling/docs/)
 
 
 The last one is important and you should be able to type:
@@ -58,8 +60,6 @@ jupyter notebook
 ```
 
 in your terminal window and see the notebook panel load in your web browser. Try opening and running a notebook from the material to see check that it works. Alternatively you can use Jupyter notebook.
-
-After obtaining the material, we **strongly recommend** you to open and execute the script using `python check_env.py` that is located at the top level of this repository.
 
 We also recommend you to update the scikit-learn the latest release version to ensure best compatibility with the teaching material. Please upgrade already installed packages by executing
 
