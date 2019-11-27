@@ -1,0 +1,13 @@
+numpy
+scipy
+joblib
+scikit-learn
+pandas
+pandas-profiling
+ipython
+jupyter
+pillow
+matplotlib
+mplleaflet
+seaborn
+plotly

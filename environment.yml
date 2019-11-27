@@ -1,14 +1,17 @@
 name: python-workshop
+
 dependencies:
-- ipython
-- joblib
-- matplotlib
-- mplleaflet
-- notebook
-- numpy
-- pandas=0.24
-- pillow
-- python=3.7
-- scikit-learn
-- scipy
-- seaborn
+  - python=3.7
+  - numpy
+  - scipy
+  - joblib
+  - scikit-learn
+  - pandas
+  - conda-forge::pandas-profiling
+  - ipython
+  - jupyter
+  - pillow
+  - matplotlib
+  - mplleaflet
+  - seaborn
+  - plotly
