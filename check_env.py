@@ -8,7 +8,7 @@ FAIL = "\x1b[41m[FAIL]\x1b[0m"
 try:
     import importlib
 except ImportError:
-    print(FAIL, "Python version 3.5 or above is required,"
+    print(FAIL, "Python version 3.6 or above is required,"
                 " but %s is installed." % sys.version)
 
 
@@ -17,7 +17,13 @@ def import_version(pkg, min_ver, fail_msg=""):
     try:
         mod = importlib.import_module(pkg)
         if pkg in {'PIL'}:
-            ver = mod.VERSION
+            try:
+                ver = mod.VERSION
+            except AttributeError:
+                try:
+                    ver = mod.PILLOW_VERSION
+                except:
+                    raise
         else:
             ver = mod.__version__
         if Version(ver) < min_ver:
@@ -35,19 +41,20 @@ print('Using python in', sys.prefix)
 print(sys.version)
 pyversion = Version(sys.version)
 if pyversion >= "3":
-    if pyversion < "3.5":
-        print(FAIL, "Python version 3.5 or above is required,"
+    if pyversion < "3.6":
+        print(FAIL, "Python version 3.6 or above is required,"
                     " but %s is installed." % sys.version)
 elif pyversion >= "2":
-    print(FAIL, "Python version 3.5 or above is required,"
+    print(FAIL, "Python version 3.6 or above is required,"
                 " but %s is installed." % sys.version)
 else:
     print(FAIL, "Unknown Python version: %s" % sys.version)
 
 print()
 requirements = {'numpy': "1.16", 'scipy': "1.2", 'matplotlib': "3.0",
-                'IPython': "3.0", 'sklearn': "0.20", 'pandas': "0.24",
-                'PIL': "1.1.7", 'notebook': "5.7"}
+                'IPython': "3.0", 'sklearn': "0.21", 'pandas': "0.24",
+                'PIL': "1.1.7", 'notebook': "5.7", 'plotly': "4.3",
+                'pandas_profiling': "2.3"}
 
 # now the dependencies
 for lib, required_version in list(requirements.items()):

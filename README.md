@@ -63,6 +63,8 @@ jupyter notebook
 
 in your terminal window and see the notebook panel load in your web browser. Try opening and running a notebook from the material to see check that it works. Alternatively you can use Jupyter notebook.
 
+After obtaining the material, we **strongly recommend** you to open and execute the script using `python check_env.py` that is located at the top level of this repository.
+
 We also recommend you to update the scikit-learn the latest release version to ensure best compatibility with the teaching material. Please upgrade already installed packages by executing
 
 ```bash
