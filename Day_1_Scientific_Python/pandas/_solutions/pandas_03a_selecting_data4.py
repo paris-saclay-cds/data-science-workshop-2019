@@ -1,1 +1,1 @@
-len(df[df['Age'] > 70])
+len(df.loc[df['Age'] > 70, :])

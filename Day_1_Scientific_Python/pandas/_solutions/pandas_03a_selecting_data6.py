@@ -1,1 +1,1 @@
-df[(df['Age'] > 30) & (df['Age'] <= 40)]
+df.loc[(df['Age'] > 30) & (df['Age'] <= 40), :]

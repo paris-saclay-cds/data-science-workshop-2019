@@ -1,1 +1,1 @@
-males = df[df['Sex'] == 'male']
+males = df.loc[df['Sex'] == 'male', :]
